@@ -3,5 +3,10 @@ import { useState } from 'react';
 export function Counter() {
   const [count, setCount] = useState(0);
 
-  return <span>{count}</span>;
+  return (
+    <>
+      <h1>Hello World</h1>
+      <span>{count}</span>
+    </>
+  );
 }
